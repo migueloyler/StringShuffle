@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=StringShuffle
+comment0.text=\n\ StringShuffle's\ method\ isShuffle\ recursively\ determines\ wether\ string\ C\ is\ a\ shuffle\ of\ A\ and\ B\ by\ checking\ if\ the\ last\ char\n\ of\ A\ or\ B\ matches\ the\ last\ char\ of\ C,\ if\ this\ is\ the\ case,\ then\ we\ can\ pop\ off\ the\ last\ char\ of\ whichever\ matched\ (A\ or\ B),\ \n\ if\ they\ both\ match,\ just\ give\ string\ A\ priority.\ The\ function\ then\ makes\ a\ recursive\ call\ to\ itself\ with\ the\ last\ char\ of\ \n\ C\ popped\ off\ and\ the\ last\ char\ of\ [A\ /\ B]\ (wichever\ matched)\ popped\ off.\ \n
+comment1.params=A\ B\ C\ T
+comment1.target=boolean\ isShuffle(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.util.ArrayList)
+comment1.text=\n\ @param\:\n\ String\ A\ -\ one\ of\ the\ strings\n\ String\ B\ -\ the\ other\ string\n\ String\ C\ -\ the\ Shuffle\ of\ A\ and\ B\ that\ we\ will\ be\ testing\n\ ArrayList<Boolean>\ T\ -\ the\ table\ we\ will\ use\ for\ dynamic\ programming\ to\ store\ our\ solutions\ so\ we\ don't\ solve\ the\ same\n\ problem\ twice\n\ \n\ @return\n\ true\ if\ String\ C\ is\ a\ shuffle\ of\ A\ and\ B\n\ false\ if\ C\ is\ not\ a\ shuffle\ of\ A\ and\ B\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3
